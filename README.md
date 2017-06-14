@@ -1,1 +1,1 @@
-https://www.terraform.io/intro/getting-started/dependencies.html
+https://www.terraform.io/intro/getting-started/provision.html

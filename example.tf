@@ -7,3 +7,8 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
   subnet_id     = "subnet-c42805b2"
 }
+
+resource "aws_eip" "ip" {
+  instance = "${aws_instance.example.id}"
+  vpc      = true
+}
